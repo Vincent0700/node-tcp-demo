@@ -1,0 +1,27 @@
+{
+  "name": "node-tcp-demo",
+  "version": "0.1.0",
+  "author": "vincent0700 (https://vincentstudio.info)",
+  "email": "wang.yuanqiu007@gmail.com",
+  "description": "A demo for learning tcp protocol using net module.",
+  "license": "MIT",
+  "keywords": [
+    "tcp",
+    "node",
+    "demo"
+  ],
+  "scripts": {
+    "server": "node ./src/server.js",
+    "client": "node ./src/client.js"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1",
+    "husky": "^4.2.1",
+    "lint-staged": "^10.0.3",
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4"
+  }
+}
